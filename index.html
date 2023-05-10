@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	  <meta charset="UTF-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+	  <style>
+	     table,th,td{
+		    border:1px solid black;
+			text-align:center;
+		 }
+		 table.box{
+		   width:90%;
+		   margin:auto;
+		 }
+	  </style>
+	</head>
+	    <body>
+		   <table class="box">
+		      <tr>
+			    <th>Utilities</th>
+				<th>Bootstrap name</th>
+				<th>Values</th>
+				<th>Sample output</th>
+			  </tr>
+			  <tr>
+			     <td>Background color</td>
+				 <td>.bg-</td>
+				 <td>.bg-primary<br>
+				      .bg-secondary<br>
+					  .bg-success<br>
+					    .bg-danger<br>
+						.bg-warning<br>
+						.bg-info<br>
+						.bg-light<br>
+						.bg-dark<br>
+						.bg-body<br>
+						.bg-white<br>
+						.bg-transparent</td>
+				   <td><div class="p-3 mb-2 bg-danger text-white">Alert!</div></td>	  
+			  </tr>
+			  <tr>
+			  <td>Background gradient</td>
+			  <td>.bg-gradient</td>
+			  <td>.bg-primary.bg-gradient<br>
+				      .bg-secondary.bg-gradient<br>
+					  .bg-success.bg-gradient<br>
+					    .bg-danger.bg-gradient<br>
+						.bg-warning.bg-gradient<br>
+						.bg-info.bg-gradient<br>
+						.bg-light.bg-gradient<br>
+						.bg-dark.bg-gradient<br>
+						.bg-body.bg-gradient<br>
+						.bg-white.bg-gradient<br>
+						.bg-transparent.bg-gradient</td>
+						<td><div class="p-3 mb-2 bg-secondary text-white">Secondary gradient</div></td>
+			  </tr>
+			  <tr>
+			     <td>Border</td>
+				 <td>border-</td>
+				 <td>border-0<br>
+				 border-top-0<br>
+				 border-end-0<br>
+				 border-bottom-0<br>
+				 border-start-0<br>
+				 border-primary<br>
+				 border-secondary<br>
+				 border-success<br>
+				 border-dange<br>
+				  border-warning<br>
+				  border-info<br>
+				  border-light<br>
+				  border-dark<br>
+				   border-white<br>
+				   border-opacity-75<br>
+				   border-opacity-50<br>
+				   border-opacity-25<br>
+				   border-opacity-10<br>
+				   border-1<br>
+				   border-2<br>
+				   border-3<br>
+				   border-4<br>
+				   border-5<br>
+				   rounded<br>
+				   rounded-top<br>
+				   rounded-end<br>
+				   rounded-bottom<br>
+				   rounded-start<br>
+				   rounded-circle<br>
+				   rounded-pill<br>
+				   rounded-0<br>
+				   rounded-1<br>
+				   rounded-2<br>
+				   rounded-3<br>
+				   rounded-4<br>
+				   rounded-5<br>
+				   border-width<br>
+				   border-style<br>
+				   border-color<br>
+				   border-color-translucent<br>
+				   border-radius<br>
+				   border-radius-sm<br>
+				   border-radius-lg<br>
+				   border-radius-xl<br>
+				   border-radius-2xl<br>
+				   border-radius-pill<br></td>
+				   <td><div class="p-3 bg-info bg-opacity-10 border border-info border-start-0 rounded-end"> Changing border color and width</div></td>
+			  </tr>
+			  <tr>
+			     <td>colors</td>
+				 <td>.text-</td>
+				 <td>.text-primary<br>
+				 .text-secondary<br>
+				 .text-success<br>
+				 .text-danger<br>
+				 .text-warning<br>
+				 .text-info<br>
+				 .text-light<br>
+				 .text-dark<br>
+				 .text-body<br>
+				 .text-muted<br>
+				 .text-white<br>
+				 .text-black-50<br>
+				 .text-white-50<br>
+				 text-opacity-75<br>
+				 text-opacity-50<br>
+				 text-opacity-25<br></td>
+				 <td class="text-warning text-opacity-50">50% opacity warning text</td>
+			  </tr>
+			  <tr>
+			     <td>Display</td>
+				 <td>d-</td>
+				 <td>d-inline<br>
+				 d-block<br>
+				 d-none<br>
+				 d-inline-block<br>
+				 d-grid<br>
+				 d-table<br>
+				 d-table-cell<br>
+				 d-table-row<br>
+				 d-flex<br>
+				 d-inline-flex<br></td>
+				<td><div class="d-inline p-2 text-bg-success">inline</div></td>
+			  </tr>
+			  <tr>
+			    <td>Flex</td>
+				<td>flex</td>
+				<td>flex-row<br>
+				flex-row-reverse<br>
+				flex-column<br>
+				flex-column-reverse<br>
+				.flex-sm-row<br>
+				.flex-sm-row-reverse<br>
+				.flex-sm-column<br>
+				.flex-sm-column-reverse<br>
+				.flex-md-row<br>
+				.flex-md-row-reverse<br>
+				.flex-md-column<br>
+				.flex-md-column-reverse<br>
+				.flex-lg-row<br>
+				.flex-lg-row-reverse<br>
+				.flex-lg-column<br>
+				.flex-lg-column-reverse<br>
+				.flex-xl-row<br>
+				.flex-xl-row-reverse<br>
+				.flex-xl-column<br>
+				.flex-xl-column-reverse<br>
+				.flex-xxl-row<br>
+				.flex-xxl-row-reverse<br>
+				.flex-xxl-column<br>
+				.flex-xxl-column-reverse<br>
+				.justify-content-start<br>
+				.justify-content-end<br>
+				.justify-content-center<br>
+				.justify-content-between<br>
+				.justify-content-around<br>
+				.justify-content-evenly<br>
+				.justify-content-sm-start<br>
+				.justify-content-sm-end<br>
+				.justify-content-sm-center<br>
+				.justify-content-sm-between<br>
+				.justify-content-sm-around<br>
+				.justify-content-sm-evenly<br>
+				.justify-content-md-start<br>
+				.justify-content-md-end<br>
+				.justify-content-md-center<br>
+				.justify-content-md-between<br>
+				.justify-content-md-around<br>
+				.justify-content-md-evenly<br>
+				.justify-content-lg-start<br>
+				.justify-content-lg-end<br>
+				.justify-content-lg-center<br>
+				.justify-content-lg-between<br>
+				.justify-content-lg-around<br>
+				.justify-content-lg-evenly<br>
+				.justify-content-xl-start<br>
+				.justify-content-xl-end<br>
+				.justify-content-xl-center<br>
+				.justify-content-xl-between<br>
+				.justify-content-xl-around<br>
+				.justify-content-xl-evenly<br>
+				.justify-content-xxl-start<br>
+				.justify-content-xxl-end<br>
+				.justify-content-xxl-center<br>
+				.justify-content-xxl-between<br>
+				.justify-content-xxl-around<br>
+				.justify-content-xxl-evenly</td>
+				<td><div class="d-flex justify-content-around bg-info">
+                     <div class="p-2 bg-danger text-white bg-opacity-50">box 1</div>
+                    <div class="p-2 bg-danger text-white bg-opacity-50">box 2</div>
+                   <div class="p-2 bg-danger text-white bg-opacity-50">box 3</div>
+                   </div></td>
+			  </tr>
+			  <tr>
+			     <td>float</td>
+				 <td>float-</td>
+				 <td>.float-start<br>
+				 .float-end<br>
+				 .float-none<br>
+				 .float-sm-start<br>
+				 .float-sm-end<br>
+				 .float-sm-none<br>
+				 .float-md-start<br>
+				 .float-md-end<br>
+				 .float-md-none<br>
+				 .float-lg-start<br>
+				 .float-lg-end<br>
+				 .float-lg-none<br>
+				 .float-xl-start<br>
+				 .float-xl-end<br>
+				 .float-xl-none<br>
+				 .float-xxl-start<br>
+				 .float-xxl-end<br>
+				 .float-xxl-none</td>
+				 <td><div class="float-end">Float-end</div></td>
+			  </tr>
+			  <tr>
+			    <td>opacity</td>
+				<td>opacity-</td>
+				<td>opacity-100<br>
+				opacity-75<br>
+				opacity-25<br>
+				opacity-10</td>
+				<td><div class="opacity-25 bg-secondary">Opacity</div></td>
+			  </tr>
+			  <tr>
+			  <td>Overflow</td>
+			  <td>overflow-</td>
+			  <td>overflow-auto<br>
+			  overflow-hidden<br>
+			  overflow-visible<br>
+			  overflow-scroll</td>
+			  <td class="position-relative"><div class="overflow-scroll w-50 h-50 position-absolute top-0 end-0">This is an example of using .overflow-scroll on an element with set width and height dimensions.</div></td>
+			  </tr>
+			  <tr>
+			    <td>Position</td>
+				<td>position-<.td>
+				<td>position-static<br>
+				position-relative<br>
+				position-absolute<br>
+				position-fixed<br>
+				position-sticky<br>
+				position-absolute top-0 start-0<br>
+				position-absolute top-0 end-0<br>
+				position-absolute top-50 start-50<br>
+				position-absolute bottom-50 end-50<br>
+				position-absolute bottom-0 start-0<br>
+				position-absolute bottom-0 end-0<br>
+				position-absolute top-0 start-0 translate-middle<br>
+				position-absolute top-0 start-50 translate-middle<br>
+				position-absolute top-0 start-100 translate-middle<br>
+				position-absolute top-50 start-0 translate-middle<br>
+				position-absolute top-50 start-50 translate-middle<br>
+				position-absolute top-50 start-100 translate-middle<br>
+				position-absolute top-100 start-0 translate-middle<br>
+				position-absolute top-100 start-50 translate-middle<br>
+				position-absolute top-100 start-100 translate-middle<br>
+				position-absolute top-0 start-0<br>
+				position-absolute top-0 start-50 translate-middle-x<br>
+				position-absolute top-0 end-0<br>
+				position-absolute top-50 start-0 translate-middle-y<br>
+				position-absolute top-50 start-50 translate-middle<br>
+				position-absolute top-50 end-0 translate-middle-y<br>
+				position-absolute bottom-0 start-0<br>
+				position-absolute bottom-0 start-50 translate-middle-x<br>
+				position-absolute bottom-0 end-0</td>
+				<td><button type="button" class="btn btn-primary position-relative">
+             Inbox<span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-secondary">+99 <span class="visually-hidden">unread messages</span></span></button></td>
+			  </tr>
+			  <tr>
+			    <td>Shadow</td>
+				<td>shadow-</td>
+				<td>shadow-none<br>
+				shadow-sm<br>
+				shadow<br>
+				shadow-lg</td>
+				<td><div class="shadow-lg p-3 mb-5 bg-body rounded">Bigger Shadow</div></td>
+			  </tr>
+			  <tr>
+			     <td>sizing</td>
+				 <td>w-,h-</td>
+				 <td>w-25<br>
+				 w-50<br>
+				 w-75<br>
+				 w-100<br>
+				 w-auto<br>
+				 h-25<br>
+				 h-50<br>
+				 h-75<br>
+				 h-100<br>
+				 h-auto<br>
+				 mw-100<br>
+				 mh-100<br>
+				 min-vw-100<br>
+				 min-vh-100<br>
+				 vw-100<br>
+				 vh-100</td>
+				  <td><div class="w-75 p-3" style="background-color: #ffc451;">Width 75%</div></td>
+			  </tr>
+			  <tr>
+			     <td>spacing</td>
+				 <td>p-,m-</td>
+				 <td>(p-1 to 5)<br>
+				   (px-1 to 5)<br>
+				   (py-1 to 5)<br>
+				   (pt-1 to 5)<br>
+				   (pb-1 to 5)<br>
+				   (ps-1 to 5)<br>
+				   (pe-1 to 5)<br>
+				   (m-1 to 5)<br>
+				   (mx-1 to 5)<br>
+				   (my-1 to 5)<br>
+				   (mt-1 to 5)<br>
+				   (mb-1 to 5)<br>
+				   (ms-1 to 5)<br>
+				   (me-1 to 5)</td>
+				   <td> <div class="p-2 bg-light border">padding</div></td>
+			  </tr>
+			  <tr>
+			    <td>Text</td>
+				<td>text-<br>fs-<br>fw-<br>fst-<br>lh-<br>font-<br>text-decoration-</td>
+				<td>text-wrap<br>
+				text-nowrap<br>
+				text-lowercase<br>
+				text-uppercase<br>
+				text-capitalize<br>
+				fs(1-6)<br>
+				fw-bold<br>
+				fw-bolder<br>
+				fw-semibold<br>
+				fw-normal<br>
+				fw-light<br>
+				fw-lighter<br>
+				fst-italic<br>
+				fst-normal<br>
+				lh-1<br>
+				lh-sm<br>
+				lh-base<br>
+				lh-lg<br>
+				font-monospace<br>
+				text-decoration-underline<br>
+				text-decoration-line-through<br>
+				text-decoration-none</td>
+				<td><p class="fst-italic">Italic</p></td>
+			  </tr>
+			  <tr>
+			    <td>Vertical align</td>
+				<td>align-</td>
+				<td>align-baseline<br>
+				align-top<br>
+				align-middle<br>
+				align-bottom<br>
+				align-text-top<br>
+				align-text-bottom</td>
+				<td class="align-text-top">text-top-align</td>
+			  </tr>
+			  <tr>
+			    <td>visibility</td>
+				<td>visible<br>
+				invisible</td>
+				<td>visible<br>
+				invisible</td>
+				<td><div class="invisible">Hidden</div></td>
+			  </tr>
+		   </table>
+		</body>
+</html>		
